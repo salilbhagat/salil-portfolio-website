@@ -1,0 +1,87 @@
+.scrollable-tabs-container { 
+  max-width: 700px;
+  border-radius: 4px;
+  overflow: hidden;
+  position: relative; 
+  color: #000;
+}
+
+.scrollable-tabs-container svg {
+  width: 24px;
+  height: 24px;
+  padding: 8px;
+  cursor: pointer;
+  color: #fff;
+  border-radius: 50%;
+  pointer-events: auto;
+}
+
+.scrollable-tabs-container ul {
+  display: flex;
+  gap: 16px;
+  padding: 12px 24px;
+  margin: 0;
+  list-style: none;
+  overflow-x: scroll;
+  -ms-overflow-style: none;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+  
+}
+
+.scrollable-tabs-container ul.dragging a {
+  pointer-events: none;
+}
+
+.scrollable-tabs-container ul.dragging {
+  scroll-behavior: auto;
+}
+
+.scrollable-tabs-container ul::-webkit-scrollbar {
+  display: none;
+}
+
+.scrollable-tabs-container a {
+  color: #333;
+  text-decoration: none;
+  background: #fff;
+  padding: 10px 24px;
+  display: inline-block;
+  border-radius: 10px;
+  user-select: none;border: 1px solid #ccc;
+  white-space: nowrap;
+}
+
+.scrollable-tabs-container a.active {
+  background: #000;
+  color: #fff;
+}
+
+.scrollable-tabs-container .right-arrow,
+.scrollable-tabs-container .left-arrow {
+  position: absolute;
+  height: 100%; 
+  top: 0;
+  display: none;
+  align-items: center; 
+  pointer-events: none;
+}
+
+.scrollable-tabs-container .right-arrow.active,
+.scrollable-tabs-container .left-arrow.active {
+  display: flex;
+}
+
+.scrollable-tabs-container .right-arrow {
+  right: 0;
+  background: linear-gradient(to left, #000 5%, transparent);
+  justify-content: flex-end;
+}
+
+.scrollable-tabs-container .left-arrow {
+  background: linear-gradient(to right, #000 5%, transparent);
+}
+
+.scrollable-tabs-container svg:hover {
+  background: #333;
+}

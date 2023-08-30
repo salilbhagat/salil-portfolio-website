@@ -1,43 +1,84 @@
 <!DOCTYPE html>
 <html>
-
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue-grey.css">
+<link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" href="./assets/css/style.css">
+<link rel="stylesheet" href="./assets/css/slider.css">
 <head>
   <title>SALIL BHAGAT - Home</title>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
-  <link rel="stylesheet" href="https://www.w3schools.com/lib/w3-theme-blue-grey.css">
-  <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Open+Sans'>
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-  <link rel="stylesheet" href="./assets/css/style.css">
 </head>
+<link rel = "icon" href = "https://creazilla-store.fra1.digitaloceanspaces.com/icons/3242477/black-tie-icon-sm.png" type = "image/x-icon">
 <!-- Navbar -->
 <div class="w3-top">
   <div class="w3-bar w3-black w3-left-align w3-large">
     <a style="text-decoration: none;" href="index.html" class="w3-bar-item w3-button w3-padding-large w3-black">
-      <i class="fa fa-black-tie w3-margin-right" style="text-decoration: none;" href="index.html"></i>SALIL . R .
-      BHAGAT'S PORTFOLIO</a>
+      <i class="fa fa-black-tie w3-margin-right" style="text-decoration: none;" href="index.html"></i>
+      SALIL R . BHAGAT'S PORTFOLIO
+    </a>
   </div>
 </div>
 <!-- Page Container -->
-<div class="w3-container w3-content" style="max-width:1400px;margin-top:70px">
+<div class="w3-container w3-content" style="max-width:1400px;margin-top:50px;">
   <!-- The Grid -->
   <div class="w3-row">
     <!-- Left Column -->
     <div class="w3-col m3">
       <!-- Profile -->
-      <div class="w3-card w3-round w3-white">
-        <div class="w3-container">
+      <div class=" w3-round w3-white ">
+        <div class="w3-container ">
           <h4 class="w3-center">My Profile</h4>
-          <hr>
-          <p class="w3-center"><img src="./assets/images/salilpic.png" class="w3-circle"
-              style="height:106px;width:106px" alt="Avatar"></p>
+          <p class="w3-center"><img src="./assets/images/salilpic.png" class="w3-circle" style="height:95px;width:95px"
+              alt="Avatar"></p>
           <p><i class="fa fa-id-card fa-fw w3-margin-right w3-text-theme"></i> SALIL . R . BHAGAT </p>
-          <p><i class="fa fa-laptop fa-fw w3-margin-right w3-text-theme"></i> Software Developer </p>
+          <p><i class="fa fa-laptop fa-fw w3-margin-right w3-text-theme"></i> B.I. Developer | Software Dev.</p>
           <p><i class="fa fa-location-arrow fa-fw w3-margin-right w3-text-theme"></i> Mumbai, India</p>
-          <p><i class="fa fa-birthday-cake fa-fw w3-margin-right w3-text-theme"></i> March 16, 2000</p>
+          
+          <!-- <p><i class="fa fa-birthday-cake fa-fw w3-margin-right w3-text-theme"></i> March 16, 2000</p> -->
+          <p> <i class="fa fa-globe fa-fw w3-margin-right w3-text-theme"></i>
+            <a class="w3-button w3-round w3-border w3-black fa fa-linkedin"
+              href="https://www.linkedin.com/in/salilbhagat" target="_blank"></a>
+            <a class="w3-button w3-round w3-white w3-border fa fa-instagram" href="https://www.instagram.com/salilxd/"
+              target="_blank"></a>
+            <a class="w3-button w3-round w3-white w3-border fa fa-facebook-square"
+              href="https://www.facebook.com/salilrbhagat/" target="_blank"></a>
+            <a class="w3-button w3-round w3-white w3-border fa fa-twitter" href="https://twitter.com/salilbhagat"
+              target="_blank"></a>
+            <a class="w3-button w3-round w3-white w3-border fa fa-envelope" href="mailto: salilrbhagat@gmail.com"
+              target="_blank"></a>
+          </p>
           <hr>
-          <h4 class="w3-center">Skills</h4>
+          <p>
+            <i class="fa fa-pencil fa-fw w3-margin-right w3-text-theme"></i> Education
+          </p>
+          <div>
+            <button onclick="myFunction('Demo1')" class="w3-button w3-block w3-left-align ">
+              <i class="fa fa-plus w3-margin-right"></i> Masters In Computer Application</button>
+            <div id="Demo1" class="w3-hide w3-container">
+              <a href="https://hirayica.edu.in/" target="_blank"> L.B.H.S.S.T. Institute of M.C.A <i
+                  class="fa fa-external-link"></i></a>
+            </div>
+            <button onclick="myFunction('Demo2')" class="w3-button w3-block w3-left-align ">
+              <i class="fa fa-plus w3-margin-right"></i> B.Sc. Computer Science & H.S.C.</button>
+            <div id="Demo2" class="w3-hide w3-container">
+              <a href="https://rdnational.ac.in/" target="_blank"> R.D. National College <i
+                  class="fa fa-external-link"></i></a>
+            </div>
+            <button onclick="myFunction('Demo3')" class="w3-button w3-block w3-left-align ">
+              <i class="fa fa-plus w3-margin-right"></i> S.S.C.</button>
+            <div id="Demo3" class="w3-hide w3-container">
+              <a href="https://bpmhighschool.in/" target="_blank"> B.P.M. High School 
+                <i class="fa fa-external-link"></i></a>
+            </div><hr>
+            <p><i class="fa fa-file-pdf-o fa-fw w3-margin-right w3-text-theme"></i> 
+              <a class="w3-button w3-round w3-black w3-border" href="assets/other_files/Salil_Bhagat_Resume.pdf"
+                target="_blank"><i class="fa fa-download"></i> Download My Resume </a>
+                </p>
+          </div>
+          <!-- <h4 class="w3-center">Skills</h4>
           <p>
             <span class="w3-tag w3-small w3-black w3-border">Web Development</span>
             <span class="w3-tag w3-small w3-black w3-border">Application Development</span>
@@ -50,12 +91,13 @@
             <span class="w3-tag w3-small w3-white w3-border">PHP</span>
             <span class="w3-tag w3-small w3-white w3-border">Flutter</span>
             <span class="w3-tag w3-small w3-white w3-border">Figma</span>
-          </p>
+          </p> -->
         </div>
       </div>
       <br>
 
       <!-- Accordion -->
+      <!-- 
       <div class="w3-card w3-round">
         <div class="w3-container">
           <h4 class="w3-center">Education</h4>
@@ -95,37 +137,69 @@
           <p><a class="w3-button w3-block w3-white w3-border fa fa-envelope" href="mailto: salilrbhagat@gmail.com"
               target="_blank"> Gmail</a></p>
         </div>
-      </div>
-      <br>
+      </div> -->
     </div>
     <!-- End Left Column -->
     <!-- Middle Column -->
-    <div class=" w3-col m7 ">
+    <div class=" w3-col m9 ">
       <div class="w3-row">
         <div class="tab">
-          <button class="tablinks" onclick="openTab(event, 'tab1')" id="defaultOpen">
-            <i class="fa fa-briefcase"></i> PROJECT</button>
-          <button class="tablinks" onclick="openTab(event, 'tab2')">
-            <i class="fa fa-file"></i> RESEARCH PAPERS</button>
+          <div class="scrollable-tabs-container">
+            <div class="left-arrow">
+              <svg fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M15.75 19.5L8.25 12l7.5-7.5" />
+              </svg>
+            </div>
+
+            <ul>
+              <li>
+                <a onclick="openTab(event, 'tab1')" id="defaultOpen">PROJECT</a>
+              </li>
+
+              <li>
+                <a onclick="openTab(event, 'tab2')">AWARDS</a>
+              </li>
+
+              <li>
+                <a onclick="openTab(event, 'tab3')">CERTIFICATIONS</a>
+              </li>
+
+              <li>
+                <a onclick="openTab(event, 'tab4')">RESEARCH</a>
+              </li>
+            </ul>
+
+            <div class="right-arrow active">
+              <svg fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="w-6 h-6">
+                <path stroke-linecap="round" stroke-linejoin="round" d="M8.25 4.5l7.5 7.5-7.5 7.5" />
+              </svg>
+            </div>
+          </div>
         </div>
 
-        <div id="tab1" class="tabcontent">
-          <div class="w3-container w3-card w3-white w3-round w3-margin-bottom"><br>
-            <img src="./assets/images/wip.png" alt="Avatar" class="w3-left w3-circle w3-margin-right"
+        <div id="tab1" class="tabcontent ">
+          <div class="w3-container w3-white w3-round  w3-card w3-margin-bottom"><br>
+            <img src="./assets/images/6a.jpg" alt="Avatar" class="w3-left w3-circle w3-margin-right"
               style="width:100px"><br>
-            <h4>Home Automation System (coming soon)</h4>
+            <h4>Home Automation System </h4>
             <span class="w3-left w3-opacity">Masters of Computer Applications (Sem III)</span><br>
             <hr class="w3-clear">
-            <p>"Home Automation System" is IoT based project.
+            <p>"Home Automation System" is IoT based group project. Here we can control home systems and water level
+              indicator.
               <br><br>
               <span class="w3-tag w3-small w3-black w3-border">Technology :</span>
               <span class="w3-tag w3-small w3-white w3-border">IoT</span>
               <span class="w3-tag w3-small w3-white w3-border">Blynk Environment</span>
             </p>
-            <a class="w3-button w3-border w3-margin-bottom w3-black" >
-              <i class="fa fa-eye"></i><del> View/Try </del></a>
-            <a class="w3-button w3-border w3-margin-bottom" download>
-              <i class="fa fa-download"></i><del> Documentation </del></a>
+            <a class="collapsible w3-button w3-border w3-margin-bottom w3-black">
+              <i class="fa fa-eye"></i> View/Try</a>
+            <p class="collapse_content"><video width="320" height="240" controls>
+                <source src="assets/images/HomeAutomationSystem_vid.mp4" type="video/mp4">
+                Your browser does not support the video tag.
+              </video></p>
+            <a class="w3-button w3-border w3-margin-bottom"
+              href="./assets/project_documentations/HomeAutomationSystem_blackbook.pdf" target="_blank" download>
+              <i class="fa fa-download"></i> Documentation </a>
           </div>
 
           <div class="w3-container w3-card w3-white w3-round w3-margin-bottom"><br>
@@ -163,7 +237,7 @@
               <span class="w3-tag w3-small w3-white w3-border">Javascript</span>
             </p>
             <a class="w3-button w3-border w3-margin-bottom w3-black"
-              href="https://salilbhagat.github.io/statisticaltablecalculator/" target="_blank" download>
+              href="https://github.com/salilbhagat/statisticaltablecalculator" target="_blank" download>
               <i class="fa fa-eye"></i> View/Try</a>
             <a class="w3-button w3-border w3-margin-bottom" href="./assets/project_documentations/stc_blackbook.pdf"
               target="_blank" download><i class="fa fa-download"></i> Documentation </a>
@@ -231,28 +305,152 @@
               <i class="fa fa-download"></i> Documentation </a>
           </div>
         </div>
+        <div id="tab2" class="tabcontent ">
+          <section class="articles">
+            <article>
+              <div class="article-wrapper">
+                <figure>
+                  <img src="./assets/images/project_certificate.jpg" alt="AVATAR" style="width: 100%;" />
+                </figure>
+                <div class="article-body">
+                  <h5>ETERNIA 2023 - PROJECT EXIBITION </h5>
+                  <a>ISSUED: MARCH 2023</a>
+                  <h6>PROJECT - Home Automation System </h6>
+                  <p>1st postion in eternia 2023 project exibition event held at L.B.H.S.S.T. Institute of M.C.A.</p>
+                  <!--<a class="w3-button w3-border w3-margin-bottom w3-black" href=".assets/images/project_certificate.jpg" target="_blank">
+                    <i class="fa fa-eye"></i> Click to view certificate </a>  -->
+                </div>
+              </div>
+            </article>
 
-        <div id="tab2" class="tabcontent">
-          <h3>COMING SOON</h3>
-          <p>working on it.</p>
+          </section>
         </div>
-      </div>
-      <br>
+        <div id="tab3" class="tabcontent">
+          <section class="articles">
+            <article>
+              <div class="article-wrapper">
+                <figure>
+                  <img
+                    src="https://internalapp.nptel.ac.in/NOC/NOC23/SEM1/Ecertificates/106/noc23-cs42/Course/NPTEL23CS42S6423050204251704.jpg"
+                    alt="" style="width: 100%;" />
+                </figure>
+                <div class="article-body">
+                  <h5>CLOUD COMPUTING</h5>
+                  <a>NPTEL</a>
+                  <h6>ISSUED: MAY 2023</h6>
+                  <a class="w3-button w3-border w3-margin-bottom w3-black"
+                    href="https://internalapp.nptel.ac.in/NOC/NOC23/SEM1/Ecertificates/106/noc23-cs42/Course/NPTEL23CS42S6423050204251704.jpg"
+                    target="_blank">
+                    <i class="fa fa-eye"></i> Click to view credentials </a>
+                </div>
+              </div>
+            </article>
+            <article>
+              <div class="article-wrapper">
+                <figure>
+                  <img src="assets/images/certifications/google_dataanalytics_certificate.jpeg" alt=""
+                    style="width: 100%;" />
+                </figure>
+                <div class="article-body">
+                  <h5>GOOGLE DATA ANALYTICS</h5>
+                  <a>COURSERA - GOOGLE</a>
+                  <h6>ISSUED: MARCH 2023</h6>
+                  <a class="w3-button w3-border w3-margin-bottom w3-black"
+                    href="https://coursera.org/share/4e9e3f0f4abd6db935c135c9220d87ef" target="_blank">
+                    <i class="fa fa-eye"></i> Click to view credentials </a>
+                </div>
+              </div>
+            </article>
+            <article>
+              <div class="article-wrapper">
+                <figure>
+                  <img
+                    src="https://internalapp.nptel.ac.in/NOC/NOC23/SEM1/Ecertificates/106/noc23-cs41/Course/NPTEL23CS41S3520080903103919.jpg"
+                    alt="Avatar" style="width: 100%;" />
+                </figure>
+                <div class="article-body">
+                  <h5>DATA BASE MANAGEMENT SYSTEM</h5>
+                  <a>NPTEL</a>
+                  <h6>ISSUED: MARCH 2023</h6>
+                  <a class="w3-button w3-border w3-margin-bottom w3-black"
+                    href="https://internalapp.nptel.ac.in/NOC/NOC23/SEM1/Ecertificates/106/noc23-cs41/Course/NPTEL23CS41S3520080903103919.jpg"
+                    target="_blank">
+                    <i class="fa fa-eye"></i> Click to view credentials </a>
+                </div>
+              </div>
+            </article>
+            <article>
+              <div class="article-wrapper">
+                <figure>
+                  <img src="https://certificates.simplicdn.net/share/thumb_4205251_1678084403.png" alt="Avatar"
+                    style="width: 100%;" />
+                </figure>
+                <div class="article-body">
+                  <h5>TABLEAU TRAINING</h5>
+                  <a>SIMPLILEARN</a>
+                  <h6>ISSUED: MARCH 2023</h6>
+                  <a class="w3-button w3-border w3-margin-bottom w3-black"
+                    href="https://www.simplilearn.com/skillup-certificate-landing?token=eyJjb3Vyc2VfaWQiOiI3OTUiLCJjZXJ0aWZpY2F0ZV91cmwiOiJodHRwczpcL1wvY2VydGlmaWNhdGVzLnNpbXBsaWNkbi5uZXRcL3NoYXJlXC90aHVtYl80MjA1MjUxXzE2NzgwODQ0MDMucG5nIiwidXNlcm5hbWUiOiJTYWxpbCBSYXZpbmRyYSBCaGFnYXQifQ%3D%3D&utm_source=shared-certificate&utm_medium=lms&utm_campaign=shared-certificate-promotion&referrer=https%3A%2F%2Flms.simplilearn.com%2Fdashboard%2Fcertificate&%24web_only=true&_branch_match_id=1125070059198564127&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXL87MLcjJ1EssKNDLyczL1k%2FVt0gtKc01DS4xq0wCAFSZOE8lAAAA"
+                    target="_blank">
+                    <i class="fa fa-eye"></i> Click to view credentials </a>
+                </div>
+              </div>
+            </article>
+            <article>
+              <div class="article-wrapper">
+                <figure>
+                  <img src="https://certificates.simplicdn.net/share/thumb_4090281_1673680529.png" alt="Avatar"
+                    style="width: 100%;" />
+                </figure>
+                <div class="article-body">
+                  <h5>BUSINESS INTELLIGENCE FUNDAMENTALS</h5>
+                  <a>SIMPLILEARN</a>
+                  <h6>ISSUED: JANUARY 2023</h6>
+                  <a class="w3-button w3-border w3-margin-bottom w3-black"
+                    href="https://www.simplilearn.com/skillup-certificate-landing?token=eyJjb3Vyc2VfaWQiOiIxODA2IiwiY2VydGlmaWNhdGVfdXJsIjoiaHR0cHM6XC9cL2NlcnRpZmljYXRlcy5zaW1wbGljZG4ubmV0XC9zaGFyZVwvdGh1bWJfNDA5MDI4MV8xNjczNjgwNTI5LnBuZyIsInVzZXJuYW1lIjoiU2FsaWwgUmF2aW5kcmEgQmhhZ2F0In0%3D&utm_source=shared-certificate&utm_medium=lms&utm_campaign=shared-certificate-promotion&referrer=https%3A%2F%2Flms.simplilearn.com%2Fcourses%2F4304%2FBusiness-Intelligence-Fundamentals%2Fcertificate%2Fdownload-skillup&%24web_only=true&_branch_match_id=1125070059198564127&_branch_referrer=H4sIAAAAAAAAA8soKSkottLXL87MLcjJ1EssKNDLyczL1k%2FVr0qNSsrJMU8Pr0gCAFiztw4lAAAA"
+                    target="_blank">
+                    <i class="fa fa-eye"></i> Click to view credentials </a>
+                </div>
+              </div>
+            </article>
+          </section>
+        </div>
+        <div id="tab4" class="tabcontent ">
+          <section class="articles">
+            <article>
+              <div class="article-wrapper">
+                <figure>
+                  <img src="./assets/images/research_paper/Research_paper_poster.png" alt="" style="width: 100%;" />
+                </figure>
+                <div class="article-body">
+                  <h5> AI AND DATA ANALYTICS APPLICATIONS IN MILLITARY OPERATIONS</h5>
+                  <a>International Journal of Advanced Research in Science, Communication and Technology (IJARSCT)</a>
+                  <h6>Volume 3, Issue 1, July 2023</h6>
+                  <a class="w3-button w3-border w3-margin-bottom w3-black"
+                    href="https://ijarsct.co.in/Paper12040.pdf"
+                    target="_blank">
+                    <i class="fa fa-eye"></i> Click to view research papers </a>
+                </div>
+              </div>
+            </article>
+          </section>
+        </div>
+      </div><br>
     </div>
     <!-- End Middle Column -->
 
     <!-- Right Column -->
-    <div class="w3-col m2">
-      <div class="w3-card w3-round w3-white w3-center">
-        <div class="w3-container">  
-          <a class="twitter-timeline" href="https://twitter.com/salilbhagat?ref_src=twsrc%5Etfw">Loading<br> Tweets By
-            @salilbhagat</a>
-        </div>
+    <!-- <div class="w3-col m2">
+      <div class="w3-white" >
+        <a class="twitter-timeline" data-height="572" href="https://twitter.com/salilbhagat?ref_src=twsrc%5Etfw">
+          Loading<br> Tweets By
+          @salilbhagat</a>
       </div>
-    </div>
+    </div> -->
     <br>
     <script src="./assets/js/function.js"></script>
-    <script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>
+    <script src="./assets/js/slider.js"></script>
+    <script src="./assets/js/collapse.js"></script>
+    <!--<script async src="https://platform.twitter.com/widgets.js" charset="utf-8"></script>-->
     </body>
-
 </html>
